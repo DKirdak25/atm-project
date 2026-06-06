@@ -12,7 +12,7 @@ def test_deposit():
 				result = atm.deposit(500)
 				
 				assert result is True
-				assert atm.balance == 999999
+				assert atm.balance == 1500
 
 def test_withdraw():
 				atm = AtmModel()
